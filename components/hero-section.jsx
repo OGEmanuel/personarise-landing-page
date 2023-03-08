@@ -8,14 +8,14 @@ import star from '../public/images/star.svg';
 
 const HeroSection = () => {
   return (
-    <section className="grid stack w-[80%] mx-auto my-20">
+    <section className="grid stack w-[68%] mx-auto mt-32">
       <Image
         src={background}
         alt="background"
         className="grid-area-stack w-full"
         priority
       />
-      <div className="grid-area-stack w-[75%] mx-auto">
+      <div className="grid-area-stack w-[90%] mx-auto">
         <h1 className="font-bold text-[64px] text-center mt-10 mb-5">
           Choose a career in tech in minutes
         </h1>

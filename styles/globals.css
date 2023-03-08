@@ -17,3 +17,11 @@
 .grid-area-stack {
   grid-area: stack;
 }
+
+.map-para-1 {
+  @apply font-bold text-sm text-secondary uppercase tracking-[2px] text-center mb-5;
+}
+
+.map-para-2 {
+  @apply text-para text-center w-[23rem];
+}
