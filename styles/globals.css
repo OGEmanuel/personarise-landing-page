@@ -9,3 +9,11 @@
     font-family: 'Inter', sans-serif;
   }
 }
+
+.stack {
+  grid-template-areas: 'stack';
+}
+
+.grid-area-stack {
+  grid-area: stack;
+}
