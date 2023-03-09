@@ -47,7 +47,7 @@ const Features = () => {
         </div>
         <Image src={blocks} alt="blocks" />
       </div>
-      <div className="mx-32 border-2 border-ctaBorder pt-32 pb-20 px-20">
+      <div className="mx-32 border-2 border-ctaBorder rounded-[10px] pt-32 pb-20 px-20">
         <h3 className="text-[42px] font-bold text-center mb-5">
           Switch to a career in tech with ease
         </h3>
