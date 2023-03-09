@@ -37,7 +37,7 @@ const TESTIMONIALS = [
 
 const Testimonials = () => {
   return (
-    <section className="px-20">
+    <section className="px-20 mb-20">
       <div className="text-center mb-16">
         <h2 className="text-[64px] font-bold">Testimonials</h2>
         <p className="text-lg text-para w-[50rem] mx-auto">

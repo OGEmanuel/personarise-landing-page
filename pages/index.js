@@ -5,6 +5,7 @@ import NavBar from '@/components/navbar';
 import SwitchSection from '@/components/switch-section';
 import Features from '@/components/features';
 import Testimonials from '@/components/testimonials';
+import Footer from '@/components/footer';
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <Features />
         <Testimonials />
       </main>
+      <Footer />
     </>
   );
 }
