@@ -3,6 +3,7 @@ import HeroSection from '@/components/hero-section';
 import MapSection from '@/components/map-section';
 import NavBar from '@/components/navbar';
 import SwitchSection from '@/components/switch-section';
+import Features from '@/components/features';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <HeroSection />
         <MapSection />
         <SwitchSection />
+        <Features />
       </main>
     </>
   );

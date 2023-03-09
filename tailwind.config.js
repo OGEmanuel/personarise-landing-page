@@ -11,6 +11,7 @@ module.exports = {
         primary: '#C2DBFF',
         secondary: '#257CFF',
         para: 'rgba(21, 20, 57, 0.4)',
+        ctaBorder: '#EBEAED',
       },
     },
   },

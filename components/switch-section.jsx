@@ -13,7 +13,7 @@ const CAREERS = [
 ];
 
 const SwitchSection = () => {
-  const [selected, setSelected] = useState(null);
+  const [selected, setSelected] = useState(1);
 
   const handleChange = (e, id) => {
     if (e.target.checked) {
@@ -22,7 +22,7 @@ const SwitchSection = () => {
   };
 
   return (
-    <section className="px-20 relative">
+    <section className="px-20 relative mb-52">
       <div className="text-center mb-10">
         <h3 className="font-bold text-[42px]">
           Switch to a career in tech with ease
@@ -60,7 +60,7 @@ const SwitchSection = () => {
           </label>
         ))}
       </div>
-      <div className="flex justify-between relative w-[85%] mx-auto">
+      <div className="flex justify-between relative w-[80%] mx-auto">
         <div>
           <div className="mb-20">
             <p className="switch-para-1">learn about sales</p>
@@ -97,7 +97,11 @@ const SwitchSection = () => {
           className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-40%]"
         />
       </div>
-      <Image src={arc} alt="arc" className="absolute top-[85%] left-0" />
+      <Image
+        src={arc}
+        alt="arc"
+        className="absolute top-[85%] left-0 w-[8rem]"
+      />
     </section>
   );
 };
