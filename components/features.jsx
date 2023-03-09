@@ -7,7 +7,7 @@ import blocks from '../public/images/blocks.svg';
 
 const Features = () => {
   return (
-    <section className="px-20">
+    <section className="px-20 mb-40">
       <div className="flex justify-between items-center mb-20">
         <div className="px-5 relative">
           <Image src={creative} alt="creative" className="w-[30rem]" />
