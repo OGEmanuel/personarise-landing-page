@@ -11,7 +11,7 @@ import arc from '../public/images/right-arc.svg';
 
 const MapSection = () => {
   return (
-    <section className="px-20 relative">
+    <section className="px-20 relative mb-40">
       <div className="flex my-36 justify-between flex-wrap">
         <Image src={truefi} alt="truefi" />
         <Image src={compound} alt="compound" />

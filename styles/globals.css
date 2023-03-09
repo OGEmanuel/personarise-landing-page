@@ -25,3 +25,11 @@
 .map-para-2 {
   @apply text-para text-center w-[23rem];
 }
+
+.switch-para-1 {
+  @apply font-bold text-sm text-secondary uppercase tracking-[2px] mb-5;
+}
+
+.switch-para-2 {
+  @apply text-para;
+}

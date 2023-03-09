@@ -19,7 +19,7 @@ const HeroSection = () => {
         <h1 className="font-bold text-[64px] text-center mt-10 mb-5">
           Choose a career in tech in minutes
         </h1>
-        <p className="text-lg text-center w-[93%] mx-auto mb-4">
+        <p className="text-lg text-center w-[90%] mx-auto mb-4">
           Personarise is your tech careeer development platform for eliminating
           time consuming activities while making decision on a tech career you
           will succeed in — and so much more.
